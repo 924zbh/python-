@@ -1,0 +1,18 @@
+import turtle
+p=turtle.Turtle()
+p.pensize(6)
+p.speed(0)
+p.color('black','green')
+p.left(90)
+for i in range(4):
+    p.begin_fill()
+    p.forward(100)
+    p.circle(50,180)
+    p.right(90)
+    p.circle(50,180)
+    p.forward(100)
+    p.end_fill()
+p.goto(0,-100)
+p.left(180)
+p.circle(300,60)
+turtle.done()
